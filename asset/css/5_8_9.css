@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.wrapper_camp .img{
+  margin:50px 0;
+}
+
+.wrapper_camp{
+  width: 90%;
+  margin: 0 auto;
+}
