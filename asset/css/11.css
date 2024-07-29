@@ -40,7 +40,10 @@
   box-shadow: 0 10px 25px 0 rgba(151, 150, 147, 0.1);
 }
 
-
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
 
 @media(max-width:960px){
   .img_1,
