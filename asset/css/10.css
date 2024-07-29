@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.wrapper_camp .img{
+  margin:50px 0;
+  box-shadow: 0 10px 25px 0 rgba(151, 150, 147, 0.1);
+}
+
+.wrapper_camp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.camp_left,
+.camp_right{
+    width: 45%;
+}

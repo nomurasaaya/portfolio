@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.wrapper_camp .img_1 ,
+.wrapper_camp .img_2 ,
+.wrapper_camp .img_3{
+  margin:0 0 50px 0;
+}
+
+.wrapper_camp{
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.wrapper_camp p{
+  margin: 0 0 15px 0;
+  font-size: 12px;
+  text-align: right;
+  
+}
+
+
+.img_1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_1 .img{
+  width: 30%;
+  box-shadow: 0 10px 25px 0 rgba(151, 150, 147, 0.1);
+}
+
+.img_2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_2 .img{
+  width: 48%;
+  box-shadow: 0 10px 25px 0 rgba(151, 150, 147, 0.1);
+}
+
+
+
+@media(max-width:960px){
+  .img_1,
+  .img_2{
+    display: block;
+    width: 100%;
+  }
+  .img_1 .img,
+  .img_2 .img{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}

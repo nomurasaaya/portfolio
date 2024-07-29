@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.img{
+  margin:50px 0;
+}
+.img2{
+  margin-top: 50px;
+}
+.wrapper_camp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+.camp_left{
+  width: 70%;
+}
+
+.camp_right{
+    width: 20%;
+}
+
+.camp_left img,
+.camp_right img{
+  box-shadow: 0 10px 25px 0 rgba(151, 150, 147, 0.1);
+}

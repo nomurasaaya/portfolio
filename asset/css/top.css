@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+.section2{
+  margin-top: 200px;
+}
+.grid{
+  display: grid;
+  gap: 4%;
+  grid-template-columns: repeat(3,1fr);
+  margin: 50px 0;
+}
+
+.item img{ 
+  border: 10px solid #fff;
+  border-radius: 5px;
+}
+
+
+/* 画像の上に文字を表示させる */
+.image_link{
+  display:block; 
+  position:relative;
+  text-decoration:none;
+ }
+ .image_link img{
+  display:block;
+  width:100%;
+}
+.image_link:before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:2;
+  background:#d3d3cb;/*好みの色に変えてください。*/
+  opacity: 0;
+  transition:0.5s;
+}
+.image_link:after{
+  white-space: pre;
+  content:"Banner\AIllustration\AMovie";/*好みの文章に変更してください。*/
+  display:block;
+  color:#fff;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:0;
+  z-index:3;
+  transition:0.5s;
+  letter-spacing:0.2em;
+}
+.image_link:hover:before{
+  opacity:0.7;
+}
+.image_link:hover:after{
+  opacity:1;
+  margin-top:-0.5em;
+}
+
+
+/* 画像の上に文字を表示させる */
+.image_link2{
+  display:block; 
+  position:relative;
+  text-decoration:none;
+ }
+ .image_link2 img{
+  display:block;
+  width:100%;
+}
+.image_link2:before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:2;
+  background:#d3d3cb;/*好みの色に変えてください。*/
+  opacity: 0;
+  transition:0.5s;
+}
+.image_link2:after{
+  white-space: pre;
+  content:"Web site";/*好みの文章に変更してください。*/
+  display:block;
+  color:#fff;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:0;
+  z-index:3;
+  transition:0.5s;
+  letter-spacing:0.2em;
+}
+.image_link2:hover:before{
+  opacity:0.7;
+}
+.image_link2:hover:after{
+  opacity:1;
+  margin-top:-0.5em;
+}
+
+
+/* 画像の上に文字を表示させる */
+.image_link3{
+  display:block; 
+  position:relative;
+  text-decoration:none;
+ }
+ .image_link3 img{
+  display:block;
+  width:100%;
+}
+.image_link3:before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:2;
+  background:#d3d3cb;/*好みの色に変えてください。*/
+  opacity: 0;
+  transition:0.5s;
+}
+.image_link3:after{
+  white-space: pre;
+  content:"Banner";/*好みの文章に変更してください。*/
+  display:block;
+  color:#fff;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:0;
+  z-index:3;
+  transition:0.5s;
+  letter-spacing:0.2em;
+}
+.image_link3:hover:before{
+  opacity:0.7;
+}
+.image_link3:hover:after{
+  opacity:1;
+  margin-top:-0.5em;
+}
+
+
+/* 画像の上に文字を表示させる */
+.image_link4{
+  display:block; 
+  position:relative;
+  text-decoration:none;
+ }
+ .image_link4 img{
+  display:block;
+  width:100%;
+}
+.image_link4:before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:2;
+  background:#d3d3cb;/*好みの色に変えてください。*/
+  opacity: 0;
+  transition:0.5s;
+}
+.image_link4:after{
+  white-space: pre;
+  content:"Logo\AGraphic";/*好みの文章に変更してください。*/
+  display:block;
+  color:#fff;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:0;
+  z-index:3;
+  transition:0.5s;
+  letter-spacing:0.2em;
+}
+.image_link4:hover:before{
+  opacity:0.7;
+}
+.image_link4:hover:after{
+  opacity:1;
+  margin-top:-0.5em;
+}
+
+
+/* 画像の上に文字を表示させる */
+.image_link5{
+  display:block; 
+  position:relative;
+  text-decoration:none;
+ }
+ .image_link5 img{
+  display:block;
+  width:100%;
+}
+.image_link5:before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:2;
+  background:#d3d3cb;/*好みの色に変えてください。*/
+  opacity: 0;
+  transition:0.5s;
+}
+.image_link5:after{
+  white-space: pre;
+  content:"Graphic";/*好みの文章に変更してください。*/
+  display:block;
+  color:#fff;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:0;
+  z-index:3;
+  transition:0.5s;
+  letter-spacing:0.2em;
+}
+.image_link5:hover:before{
+  opacity:0.7;
+}
+.image_link5:hover:after{
+  opacity:1;
+  margin-top:-0.5em;
+}
+
+
+/* 画像の上に文字を表示させる */
+.image_link6{
+  display:block; 
+  position:relative;
+  text-decoration:none;
+ }
+ .image_link6 img{
+  display:block;
+  width:100%;
+}
+.image_link6:before{
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:2;
+  background:#d3d3cb;/*好みの色に変えてください。*/
+  opacity: 0;
+  transition:0.5s;
+}
+.image_link6:after{
+  white-space: pre;
+  content:"Illustration";/*好みの文章に変更してください。*/
+  display:block;
+  color:#fff;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:0;
+  z-index:3;
+  transition:0.5s;
+  letter-spacing:0.2em;
+}
+.image_link6:hover:before{
+  opacity:0.7;
+}
+.image_link6:hover:after{
+  opacity:1;
+  margin-top:-0.5em;
+}
+
+
+
+.profile_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.profile_wrapper img{
+  width: 30%;
+}
+.profile_text {
+  margin-left: 4%;
+  line-height: 50px;
+}
+
+@media(max-width:1285px){
+  .profile_wrapper img{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .profile_text{
+    margin: 50px 0 0 0;
+  }
+}
+
+@media(max-width:540px){
+  .grid{
+    display: block;
+    text-align: center;
+  }
+  .item{
+    margin-top: 50px;
+  }
+  .section2{
+    margin-top: 0;
+  }
+}
