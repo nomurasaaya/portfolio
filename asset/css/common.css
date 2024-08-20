@@ -9,7 +9,7 @@ body{
 h1{
   color: #DD4A28;
   font-size: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 h1 .br{
   display: none;
@@ -35,6 +35,7 @@ p{
   margin: 1.5em 0 0 1rem;
   background: #fff;
   border-radius: 5px;
+  line-height: 2.5;
 }
 .text_back::before {
   position: absolute;
@@ -50,7 +51,19 @@ p{
   margin: 0; 
   padding: 0;
 }
-
+.text_back .bold{
+  align-items: center;
+  border-radius: 4px;
+  padding: 1px 10px;
+  margin-right: 20px;
+  font-size: 13px;
+  background-color: #EFEFEF;
+  color: #625543;
+}
+.text_back .url_btn{
+  font-weight: bold;
+  border-bottom: 1px solid #362918;
+}
 .inner{
   margin-left: 20%;
   margin-right: 10%;
