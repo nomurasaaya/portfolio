@@ -50,3 +50,15 @@ width: 100%;
   aspect-ratio: 16 / 9;
 }
 
+@media(max-width:960px){
+  .img_1,
+  .img_2{
+    display: block;
+    width: 100%;
+  }
+  .img_1 .img,
+  .img_2 .img{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
