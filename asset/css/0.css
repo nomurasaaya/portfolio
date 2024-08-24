@@ -22,14 +22,19 @@
 
 .img_1{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 
 .img_1 .img{
   width: 30%;
   box-shadow: 0 10px 25px 0 rgba(151, 150, 147, 0.1);
+  margin-bottom: 5%;
 }
-
+.img .lp{
+width: 100%;
+}
 .img_2{
   display: flex;
   justify-content: space-between;
@@ -45,15 +50,3 @@
   aspect-ratio: 16 / 9;
 }
 
-@media(max-width:960px){
-  .img_1,
-  .img_2{
-    display: block;
-    width: 100%;
-  }
-  .img_1 .img,
-  .img_2 .img{
-    width: 100%;
-    margin-bottom: 50px;
-  }
-}
