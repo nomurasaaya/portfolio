@@ -13,6 +13,8 @@
 .item img{ 
   border: 10px solid #fff;
   border-radius: 5px;
+  object-fit: cover;
+  aspect-ratio: 1 /1;
 }
 
 
